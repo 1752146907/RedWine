@@ -151,6 +151,7 @@ body{
 	max-width: 1350px;
 	max-height: 620px;
 	margin:0 auto;
+	position: relative;
 }
 .expert_character{
 	float: left;
@@ -159,9 +160,12 @@ body{
 .brief_info{
 	float: left;
 	max-width: 861px;
+	min-width: 812px;
 	text-align: center;
 	padding-top: 96px;
 	color: #722338;
+	position: absolute;
+	left: 489px
 }
 .brief_info .title{
 	font-size: 36px;
@@ -380,7 +384,7 @@ body{
 }
 .boxes_item{}
 .boxes_item li{
-	width: 557px;
+	width: 574px;
 	height: 392px;
 	float: left;
 	background: #fff;
