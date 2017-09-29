@@ -309,7 +309,7 @@
 			<div class="benefit_mac"><img src="images/Mac-box.png" alt=""></div>
 			<div class="benefit_text">
 				<p class="ite1">Your first box will leave the warehouse:</p>
-				<p class="ite2">*TOMORROW*</p>
+				<p class="ite2">*<span id="day">...</span>*</p>
 				<p class="ite3">And the next ones:</p>
 				<p class="ite4">on the 15th of each month!</p>
 			</div>
@@ -687,4 +687,13 @@
 		</div>
 	</div>
 </body>
+<script type="text/javascript">
+	//判断当前日期是否小于15
+    var d = new Date();
+    if(d >= 15){
+    	document.getElementById("day").innerHTML = 'Tomorrow';
+    }else{
+    	document.getElementById("day").innerHTML = 'On the 15th';
+    }
+</script>
 </html>
