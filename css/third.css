@@ -190,15 +190,12 @@ body{
 	padding: 0.32rem 0rem;
 }
 .item_img img{
-	width: 4.50rem;
+	width: 5.60rem;
 	height: auto;
 }
 .item_three img{
 	width: 6.92rem;
 	margin-left: 0.8rem;
-}
-.item_four img{
-	width: 5.4rem;
 }
 .subscribing_item .item_title{
 	font-size: 0.26rem;
