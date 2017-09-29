@@ -77,7 +77,7 @@ body{
     width: 100%;
     background: #b80030;
     border-radius: 8px;
-    padding: 0.39rem 0.20rem;
+    padding: 0.30rem 0.20rem;
     color: #fff;
     cursor: pointer;
     font-size: 0.24rem;
@@ -94,8 +94,8 @@ body{
     width: 0.44rem;
     height: 0.44rem;
     padding-top: 0.12rem;
-    top: 1.2rem;
-    right: -0.14rem;
+    top: 1.0rem;
+    right: -0.08rem;
     font-size: 0.20rem;
     border-radius: 50%;
 }
