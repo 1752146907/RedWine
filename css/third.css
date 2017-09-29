@@ -21,27 +21,27 @@ body{
 	background: #fff;
 	color: #722338;
 	text-align: center;
-	margin-bottom: 0.38rem;
-	padding: 0.6rem 0.38rem 0.32rem 0.46rem;
+	margin-bottom: 0.24rem;
+	padding: 0.6rem 0.24rem 0.18rem 0.18rem;
 }
 .foryou_module .title{
-	font-size: 0.78rem;
+	font-size: 0.54rem;
 	font-weight: 700;
 	padding-bottom: 0.18rem;
 }
 .foryou_module .subtitle{
-	font-size: 0.48rem;
-	font-weight: 500;
+	font-size: 0.34rem;
+	font-weight: 700;
 	padding-bottom: 0.34rem;
 }
 .foryou_module .text{
-	font-size: 0.24rem;
+	font-size: 0.26rem;
 }
 .foryou_module .price{
 	padding-top: 0.20rem;
 }
 .foryou_module .price .left_img {
-    width: 3.73rem;
+    width: 2.14rem;
     max-height: 3.55rem;
     float: left;
     margin-left: 0.10rem;
@@ -52,12 +52,12 @@ body{
 .foryou_module .price .tra {
 }
 .foryou_module .price_from {
-    padding-top: 0.60rem;
+    padding-top: 0.40rem;
     padding-bottom: 0.02rem;
-    font-size: 0.22rem;
+    font-size: 0.24rem;
 }
 .foryou_module .price_month {
-    font-size: 0.66rem;
+    font-size: 0.42rem;
     font-weight: 700;
 }
 .foryou_module .month li {
@@ -77,26 +77,26 @@ body{
     width: 100%;
     background: #b80030;
     border-radius: 8px;
-    padding: 0.39rem 0.22rem;
+    padding: 0.39rem 0.20rem;
     color: #fff;
     cursor: pointer;
-    font-size: 0.44rem;
+    font-size: 0.24rem;
     margin-bottom: 0.1rem;
 }
 .foryou_module .month p {
     color: #ff0000;
-    font-size: 0.42rem;
+    font-size: 0.24rem;
 }
 .foryou_module .month .agio {
     position: absolute;
     background: #ff0000;
     color: #fff;
-    width: 0.7rem;
-    height: 0.7rem;
-    padding-top: 0.13rem;
-    top: 1.4rem;
+    width: 0.44rem;
+    height: 0.44rem;
+    padding-top: 0.12rem;
+    top: 1.2rem;
     right: -0.14rem;
-    font-size: 0.36rem;
+    font-size: 0.20rem;
     border-radius: 50%;
 }
 .foryou_module .month s {
@@ -105,7 +105,7 @@ body{
 .foryou_module .ensure {
     margin-top: 0.42rem;
     color: #bfbdb6;
-    font-size: 0.16rem;
+    font-size: 0.24rem;
 }
 .foryou_module .ensure .can {
     padding-right: 19px;
@@ -117,20 +117,20 @@ body{
 .dep_time .title{
 	background: #722338;
 	color: #fff;
-	font-size: 0.42rem;
+	font-size: 0.38rem;
     font-weight: 600;
     text-align: center;
     padding: 0.44rem 0rem;
 }
 .dep_time .title p{
-	line-height: 0.72rem;
+	line-height: 0.44rem;
 }
 .dep_time .benefit{
 	text-align: center;
 	padding-bottom: 0.66rem;
 }
 .dep_time .benefit .tit{
-	font-size: 0.42rem;
+	font-size: 0.37rem;
     font-weight: 600;
 	color: #722338;
 	margin:0.40rem 0rem 0.36rem 0rem;
@@ -157,7 +157,7 @@ body{
 	width: 4.92rem;
 }
 .dep_time .benefit .hours{
-	font-size: 0.13rem;
+	font-size: 0.20rem;
 }
 .dep_time .benefit .zen .num{
 	color: #722338;
@@ -172,7 +172,7 @@ body{
 	background: #ece9dc;
 }
 .subscribing .title{
-	font-size: 0.42rem;
+	font-size: 0.38rem;
     font-weight: 600;
     text-align: center;
     padding: 0.44rem 0rem;
@@ -190,19 +190,19 @@ body{
 	padding: 0.32rem 0rem;
 }
 .item_img img{
-	width: 5.60rem;
+	width: 3.60rem;
 	height: auto;
 }
 .item_three img{
-	width: 6.92rem;
-	margin-left: 0.8rem;
+	width: 4.92rem;
+	margin-left: 0.6rem;
 }
 .subscribing_item .item_title{
-	font-size: 0.26rem;
+	font-size: 0.34rem;
     font-weight: 600;
     margin-bottom: 0.32rem;
 }
 .subscribing_item .item_text{
-	font-size: 0.12rem;
-	font-weight: 400;
+	font-size: 0.24rem;
+	font-weight: 500;
 }

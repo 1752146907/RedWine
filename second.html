@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/second.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" >
+</head>
+<body>
+    <div class="discover">
+        <div class="discover_tit">Discover wine in a whole new way!</div>
+        <div class="discover_sub">Authentic, Simple and Hassle-free!</div>
+        <div class="discover_img">
+            <img src="images/wine_01.png" alt="">
+        </div>
+        <div class="discover_text">
+            <p><span>Subscribe</span> and <span>every month</span> you will</p>
+            <p>receive <span>2 top quality wines</span> selected</p>
+            <p>by our <span>Wine Expert</span>  任音 <span>Melody!</span></p>
+        </div>
+    </div>
+    <div class="offer">
+        2 different offers...
+    </div>
+
+</body>
+<script type="text/javascript">
+    // rem单位换算(默认1rem=100px)
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                if(clientWidth>=640){
+                    docEl.style.fontSize = '100px';
+                }else{
+                    docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+                }
+            };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+</html>

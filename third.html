@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/third.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" >
 </head>
 <body>
 	<div class="foryou">
@@ -22,7 +23,7 @@
 					</div>
 					<div class="right_info tra">
 						<div class="price_from">Starting from</div>
-						<p class="price_month">¥270/month</p>
+						<div class="price_month">¥270/month</div>
 					</div>
 					<div style="clear: both;"></div>
 				</div>
@@ -186,32 +187,32 @@
 	</div>
 </body>
 <script type="text/javascript">
-		// rem单位换算(默认1rem=100px)
-		(function (doc, win) {
-	        var docEl = doc.documentElement,
-	            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
-	            recalc = function () {
-	                var clientWidth = docEl.clientWidth;
-	                if (!clientWidth) return;
-	                if(clientWidth>=640){
-	                    docEl.style.fontSize = '100px';
-	                }else{
-	                    docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
-	                }
-	            };
-	        if (!doc.addEventListener) return;
-	        win.addEventListener(resizeEvt, recalc, false);
-	        doc.addEventListener('DOMContentLoaded', recalc, false);
-	    })(document, window);
+	// rem单位换算(默认1rem=100px)
+	(function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                if(clientWidth>=640){
+                    docEl.style.fontSize = '100px';
+                }else{
+                    docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+                }
+            };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
 
-	    //判断当前日期是否小于15
-	    var d = new Date();
-	    if(d >= 15){
-	    	document.getElementById("day").innerHTML = 'tomorrow';
-	    	document.getElementById("dayCapital").innerHTML = 'Tomorrow';
-	    }else{
-	    	document.getElementById("day").innerHTML = 'On the 15th';
-	    	document.getElementById("dayCapital").innerHTML = 'On the 15th';
-	    }
-	</script>
+    //判断当前日期是否小于15
+    var d = new Date();
+    if(d >= 15){
+    	document.getElementById("day").innerHTML = 'tomorrow';
+    	document.getElementById("dayCapital").innerHTML = 'Tomorrow';
+    }else{
+    	document.getElementById("day").innerHTML = 'On the 15th';
+    	document.getElementById("dayCapital").innerHTML = 'On the 15th';
+    }
+</script>
 </html>
