@@ -199,6 +199,7 @@ body{
 }
 .know_wine .source li{
 	width: 242px;
+	height: 180px;
 	float: left;
 	margin-right:10px;
 	margin-bottom:3px;
