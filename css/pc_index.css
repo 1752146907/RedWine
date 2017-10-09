@@ -542,6 +542,7 @@ body{
 .two_but{
 	width: 480px;
 	margin:0 auto;
+    font-size: 20px;
 	padding:34px 0px 62px 0px;
 	text-align: center;
 	font-weight: 600;
@@ -571,6 +572,8 @@ body{
 	width: 22px;
     position: absolute;
     left: 12px;
-    top: 8px;
+    top: 10px;
 }
-
+.offer strong{
+	margin-left: 24px;
+}
