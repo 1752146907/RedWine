@@ -321,7 +321,7 @@ body{
     font-weight: bold;
 }
 .boxes_ware{
-	padding: 0.24rem 0rem;
+	padding: 0.24rem 0rem 0.44rem 0rem;
 }
 .boxes_ware .left_ware{
 	width: 50%;
@@ -331,6 +331,11 @@ body{
 	text-align: left;
 	padding: 0rem 0.24rem 0rem 0.24rem;
 	border-right: 2px solid #dddddd;
+}
+.boxes_ware .commodity_img{
+	width: 1.54rem;
+	height: 1.64rem;
+	margin: 0 auto;
 }
 .boxes_ware .commodity_img img{
 	width: 100%;
@@ -369,7 +374,7 @@ body{
 	height: 0.36rem;
 	background: #b80030;
 	position: absolute;
-	bottom: -0.06rem;
+	bottom: -0.28rem;
     right: 0.24rem;
     border-radius: 5px;
     color: #fff;
@@ -379,13 +384,14 @@ body{
 .boxes_ware .ware_cart img{
 	vertical-align: text-top;
 	position: absolute;
-	top: 0.03rem;
-	left: 0.04rem;
-	width: 0.40rem;
+	top: 0.06rem;
+	left: 0.05rem;
+	width: 0.36rem;
 }
 .boxes_ware .ware_cart span{
     font-size: 0.20rem;
-    padding-left: 0.5rem;
+    padding-left: 0.4rem;
+    padding-top: 0.01rem;
     display: block;
 	font-weight: bold;
 	word-wrap: normal; /* for IE */
