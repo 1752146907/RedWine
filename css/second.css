@@ -8,6 +8,7 @@ body{
 	box-sizing: border-box;
 	list-style: none;
 }
+a{ text-decoration:none;} 
 
 .discover{
 	width: 100%;
@@ -81,7 +82,8 @@ body{
 	margin-top: 0.10rem;
 }
 .offer_sub{
-	margin-bottom: 0.20rem
+	margin-bottom: 0.20rem;
+	text-align: center;
 }
 .offer_sub button{
 	color: #fffefe;
@@ -385,7 +387,7 @@ body{
 	vertical-align: text-top;
 	position: absolute;
 	top: 0.06rem;
-	left: 0.05rem;
+	left: 0.06rem;
 	width: 0.36rem;
 }
 .boxes_ware .ware_cart span{
